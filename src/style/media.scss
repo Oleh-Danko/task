@@ -1,0 +1,123 @@
+@media (max-width: 1170px) {
+    .employees {
+        &__items {
+            max-width: 904px;
+        }
+        &__item, .item {
+            width: 282px;
+            height: 254px;
+            &__name {
+                max-width: 242px;
+            }
+            &__position {
+                max-width: 242px;
+            }
+        }
+    }
+}
+
+@media (max-width: 1024px) {
+    .header {
+        padding: 0 60px 0 60px;
+    }
+}
+
+@media (max-width: 904px) {
+    .employees {
+        &__items {
+            max-width: 704px;
+            gap: 16px;
+        }
+        &__item, .item {
+            width: 344px;
+            height: 254px;
+            &__name {
+                max-width: 304px;
+            }
+            &__position {
+                max-width: 304px;
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .header {
+        padding: 0 32px 0 32px;
+    }
+
+    .main {
+        height: 530px;
+        &__wrapper {
+            padding-top: 89px;
+        }
+    
+    }
+}
+
+@media (max-width: 575px) {
+    .header {
+        padding: 0 16px 0 16px;
+    }
+    .main {
+        &__wrapper {
+            padding-top: 40px;
+            width: 328px;
+        }
+    
+    }
+
+    .employees {
+        &__items {
+            max-width: 328px;
+        }
+        &__item, .item {
+            &__name {
+                max-width: 288px;
+            }
+            &__position {
+                max-width: 288px;
+            }
+        }
+    }
+
+    .form {
+        &__wrapper {
+            width: 328px;
+            height: 781px;
+        }
+        &__input {
+            width: 100%;
+            &-label {
+                top: 12.5px;
+            }
+        }
+    }
+}
+
+@media (max-width: 400px) {
+    .main {
+        &__wrapper {
+            width: 90%;
+            padding: 40px 10px;
+        }
+    }
+
+    .form {
+        &__input {
+            width: 90%;
+        }
+    }
+}
+
+@media (max-width: 360px) {
+    .header {
+        padding: 0 10px 0 10px;
+    }
+
+    .btn {
+        width: 80px;
+        height: 27px;
+        border: none;
+    }
+}

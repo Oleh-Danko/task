@@ -1,0 +1,50 @@
+@import '../../style/media.scss';
+
+.employees {
+    padding-top: 140px;
+    &__title {
+
+    }
+    &__items {
+        margin: 0 auto;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 29px;
+        justify-content: center;
+        max-width: 1168px;
+    }
+    &__item, .item {
+        width: 370px;
+        height: 254px;
+        border-radius: 16px;
+        background: #fff;
+        padding-top: 20px;
+        text-align: center;
+        img {
+            display: block;
+            margin: 0 auto;
+            margin-bottom: 20px;
+        }
+        &__name {
+            display: block;
+            overflow: hidden;
+            margin: 0 auto;
+            margin-bottom: 20px;
+            max-width: 330px;
+            white-space: nowrap;
+        }
+        &__position {
+            margin: 0 auto;
+            max-width: 330px;
+            white-space: nowrap;
+            overflow: hidden;
+        }
+        a {
+            display: block;
+            color: #000;
+            text-decoration: none;
+        }
+    }
+}

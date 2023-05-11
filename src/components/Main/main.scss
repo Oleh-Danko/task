@@ -1,0 +1,24 @@
+.main {
+    height: 650px;
+    overflow: hidden;
+    &__container {
+        background: url('../../../public/img/bg.png') center center/cover no-repeat;
+        height: 650px;
+    }
+    &__wrapper {
+        padding-top: 164px;
+        margin: 0 auto;
+        width: 380px;
+        color: #fff;
+        text-align: center;
+    }
+    &__title {
+        margin-bottom: 21px;
+    }
+    &__descr {
+        margin-bottom: 32px;
+    }
+}
+
+@import '../../style/media.scss';
+

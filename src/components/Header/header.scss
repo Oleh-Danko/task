@@ -1,0 +1,23 @@
+.header {
+    background: #fff;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    &__wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 1170px;
+        margin: 0 auto;
+    }
+    &__logo {
+        display: flex;
+        gap: 2px;
+    }
+    &__btn {
+        display: flex;
+        gap: 10px;
+    }
+}
+
+@import '../../style/media.scss';
